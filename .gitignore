@@ -1,0 +1,32 @@
+# Secrets & API keys (never commit)
+.env
+
+# Local SQLite database
+tickets.sqlite
+*.sqlite
+*.sqlite3
+*.db
+
+# PyInstaller build outputs
+build/
+build_new/
+dist/
+dist_new/
+*.exe
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+
+# Gradio temporary files
+flagged/
+.gradio/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
